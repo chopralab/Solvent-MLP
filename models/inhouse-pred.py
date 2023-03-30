@@ -1,7 +1,6 @@
 import numpy as np
 from keras.models import model_from_json
 import pandas as pd
-from sklearn.metrics import f1_score
 
 dataframe = pd.read_csv("data/fingerprints/all_inhouse_bits.csv", header=None)
 dataset = dataframe.values
